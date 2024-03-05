@@ -6,7 +6,7 @@
 /*   By: gpuscedd <gpuscedd@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 18:30:24 by gpuscedd          #+#    #+#             */
-/*   Updated: 2024/03/05 21:07:23 by gpuscedd         ###   ########.fr       */
+/*   Updated: 2024/03/05 21:28:22 by gpuscedd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,5 +52,5 @@ char *line_realloc(char *old_line)
 		return (NULL);
 	if (old_line)
 		ft_strcat(new_line, old_line);
-	return (free(old_line), NULL);
+	return (free(old_line), new_line);
 }
