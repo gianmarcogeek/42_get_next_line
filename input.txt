@@ -1,6 +1,0 @@
-ciao prova
-seconda riga
-terza
-
-
-c'erano due righe vuote
